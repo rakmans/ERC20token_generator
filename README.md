@@ -4,11 +4,11 @@ In this project, you can create your own token without typing a code and just by
 you can track token you made with this Dapp.\
 you can manage your tokens in this project.
 
-![main page image](https://postimg.cc/ykKVgkqb "Main")
+![main page image](https://postimg.cc/ykKVgkqb)
 
-![generator page image](https://postimg.cc/hf83vGgM "Generator")
+![generator page image](https://postimg.cc/hf83vGgM)
 
-![manager page image](https://postimg.cc/HjN7M0Wk "Manager")
+![manager page image](https://postimg.cc/HjN7M0Wk)
 
 
 ## Clone Repository
