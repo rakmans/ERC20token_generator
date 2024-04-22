@@ -42,15 +42,20 @@ const Appbar = (props) => {
                     <Container maxWidth='xl'>
                         <Toolbar disableGutters>
                             <Box
-                                component='img'
-                                sx={{
-                                    mr: 2,
-                                    display: { xs: "none", md: "flex" },
-                                    width: 50,
-                                }}
-                                src={rakmans}
-                                alt='logo'
-                            />
+                                component='a'
+                                target='_blank'
+                                href='https://rakmans.github.io/'>
+                                <Box
+                                    component='img'
+                                    sx={{
+                                        mr: 2,
+                                        display: { xs: "none", md: "flex" },
+                                        width: 50,
+                                    }}
+                                    src={rakmans}
+                                    alt='logo'
+                                />
+                            </Box>
                             <Box
                                 sx={{
                                     flexGrow: { xs: 1, sm: 0 },
@@ -81,7 +86,7 @@ const Appbar = (props) => {
                                     flexGrow: 1,
                                     display: { xs: "none", md: "flex" },
                                 }}>
-                                {pages.map((page,index) => (
+                                {pages.map((page, index) => (
                                     <NavLink
                                         key={index}
                                         to={page.href}
